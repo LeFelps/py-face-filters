@@ -10,15 +10,15 @@ from cv2 import bitwise_and
 import numpy as np
 import dlib
 
-# inicializa o detector e preditor do dlib
+# initializing dlig detector and predictor
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
-# inicializar vídeo
-# caso não tenha webcam escolha um video de teste .mp4.
+# starting video / opening webcam
+# cap = cv2.VideoCapture("video.mp4")
 cap = cv2.VideoCapture(0)
 
-title = "Filtros"
+title = "Filters"
 screen = 0
 
 def rotate_image(image, angle):
