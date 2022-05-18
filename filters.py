@@ -3,10 +3,6 @@
 
 import math
 import cv2
-from math import dist
-from cv2 import log
-from cv2 import ROTATE_180
-from cv2 import bitwise_and
 import numpy as np
 import dlib
 
