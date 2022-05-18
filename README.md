@@ -1,6 +1,9 @@
-# py-face-filters
+# Python face filters
 
 Uses image recognition to detect landmarks on a face and apply a few filters
+
+## How to use
+After launching the program you can change the filter by pressing **mouse left button (next)** or **mouse right button (previous)**
 
 ## Dependencies
 - OpenCv
