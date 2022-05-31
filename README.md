@@ -23,13 +23,13 @@ from https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_p
 2. To change from camera to video the following lines must be changed on lines 13 - 15:
 
 from...
-```
+```python
 # starting video / opening webcam
-cap = cv2.VideoCapture("video.mp4")
-# cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture("video.mp4")
+cap = cv2.VideoCapture(0)
 ```
 to...
-```
+```python
 # starting video / opening webcam
 cap = cv2.VideoCapture("video.mp4")
 # cap = cv2.VideoCapture(0)
